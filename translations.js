@@ -17,6 +17,7 @@ export default {
     save_error: 'Could not save file',
     success: 'Success',
     image_converted: 'Image converted to {format}',
+    conversion_failed: 'Conversion failed'
   },
   pt: {
     title: 'Conversor de Imagens',
@@ -36,5 +37,6 @@ export default {
     save_error: 'Não foi possível salvar o arquivo',
     success: 'Sucesso',
     image_converted: 'Imagem convertida para {format}',
+    conversion_failed: 'Falha na conversão'
   }
 };
