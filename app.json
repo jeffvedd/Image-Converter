@@ -5,6 +5,16 @@
     "version": "1.0.4",
     "platforms": ["ios", "android"],
     "icon": "./imageconverter.png",
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+    ],
     "ios": {
       "bundleIdentifier": "com.jeffveddconversordeimagens.app",
       "icon": "./imageconverter.png"
